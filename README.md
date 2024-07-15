@@ -1,7 +1,7 @@
 # HRRA
  Hierarchical Rank Aggregation (HRA) for Ranking Meta-Heuristic Optimization Algorithms
 
-
+![Tree structure of the Hierarchical Rank Aggregation Algorithm (HRAA) using TOPSIS.](doc/HRRA_tree_structure.png)
 
 The Hierarchical Rank Aggregation Algorithm (HRAA) aims to efficiently rank meta-heuristic algorithms based on their performance across many criteria and dimensions.
 
