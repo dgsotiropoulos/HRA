@@ -2,8 +2,8 @@ clc;        % Clear Command Window
 clear;      % Clear workspace variables
 close all;  % Close all figures
 
-% Check if 'HRAA_CEC2017.txt' already exists
-outfile ='HRAA_CEC2017.txt'; 
+% Check if 'HRA_CEC2017.txt' already exists
+outfile ='HRA_CEC2017.txt'; 
 if exist(outfile, 'file') == 2
     delete(outfile); % Remove the file if it exists
 end
@@ -11,7 +11,7 @@ end
 diary(outfile);
 diary on;
 % Define the Excel output file name
-excelFileName = fullfile('HRAA_CEC2017_results.xlsx');
+excelFileName = fullfile('HRA_CEC2017_results.xlsx');
 
 
 % Define the folder containing the Excel files
